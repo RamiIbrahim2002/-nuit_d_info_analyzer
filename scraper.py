@@ -15,6 +15,7 @@ def fetch_challenge_details(challenge_url):
             "Sponsor": None,
             "Theme": None,
             "Description": None,
+            "Details Section": None,
             "Expected Elements": None,
             "Status": None,
         }
@@ -37,8 +38,17 @@ def fetch_challenge_details(challenge_url):
     description_paragraph = soup.find('p')
     description = clean_text(description_paragraph.text) if description_paragraph else None
 
-    # Extract expected elements
+    # Extract the section before "Elements attendus"
+    details_section = None
     elements_section = soup.find('h2', string="Elements attendus")
+    if elements_section:
+        previous_section = elements_section.find_previous('div', class_='col-md-12')
+        if previous_section:
+            # Collect all text in <p> tags within the previous section
+            details_paragraphs = previous_section.find_all('p')
+            details_section = "\n".join(clean_text(p.text) for p in details_paragraphs)
+
+    # Extract expected elements
     expected_elements = None
     if elements_section:
         next_div = elements_section.find_next('div', class_='alert alert-danger')
@@ -53,6 +63,7 @@ def fetch_challenge_details(challenge_url):
         "Sponsor": sponsor,
         "Theme": theme,
         "Description": description,
+        "Details Section": details_section,
         "Expected Elements": expected_elements,
         "Status": status,
     }
@@ -99,6 +110,7 @@ if response.status_code == 200:
             "Sponsor": details["Sponsor"],
             "Theme": details["Theme"],
             "Description": details["Description"],
+            "Details Section": details["Details Section"],
             "Expected Elements": details["Expected Elements"],
             "Status": details["Status"],
         })
