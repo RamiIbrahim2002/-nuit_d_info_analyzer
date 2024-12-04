@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuit de l'Info Challenges</title>
+    <style>
+        /* Same styles as before */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7fc;
+            display: flex;
+            height: 100vh;
+            color: #333;
+        }
+        nav {
+            background: #004080;
+            color: white;
+            width: 25%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        nav h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            background: #0059b3;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav li:hover {
+            background-color: #0073e6;
+        }
+        nav li.active {
+            background-color: #003366;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow-y: auto;
+        }
+        main h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #004080;
+        }
+        main pre {
+            white-space: pre-wrap;
+            background: #e8eef2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+    <script>
+        async function fetchChallenges() {
+            try {
+                const response = await fetch('/api/challenges');
+                const data = await response.json();
+
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                populateChallenges(data);
+                showDetails(Object.keys(data)[0]); // Show the first challenge by default
+            } catch (error) {
+                console.error("Error fetching challenges:", error);
+                alert("Failed to load challenges.");
+            }
+        }
+
+        function populateChallenges(challenges) {
+            const navList = document.querySelector('nav ul');
+            navList.innerHTML = ''; // Clear existing items
+
+            Object.keys(challenges).forEach(challengeName => {
+                const li = document.createElement('li');
+                li.textContent = challengeName;
+                li.onclick = () => showDetails(challengeName, challenges[challengeName]);
+                navList.appendChild(li);
+            });
+        }
+
+        function showDetails(challengeName, details) {
+            // Update the main content dynamically
+            const mainTitle = document.getElementById('main-title');
+            const mainContent = document.getElementById('main-content');
+            const navItems = document.querySelectorAll('nav li');
+
+            // Update the main content
+            mainTitle.textContent = challengeName;
+            mainContent.textContent = details || "No details available for this challenge.";
+
+            // Highlight the active challenge in the nav bar
+            navItems.forEach(item => item.classList.remove('active'));
+            const activeItem = Array.from(navItems).find(item => item.textContent === challengeName);
+            if (activeItem) activeItem.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchChallenges);
+    </script>
+</head>
+<body>
+    <nav>
+        <h2>Challenges</h2>
+        <ul></ul>
+    </nav>
+    <main>
+        <h1 id="main-title"></h1>
+        <pre id="main-content"></pre>
+    </main>
+</body>
+</html>

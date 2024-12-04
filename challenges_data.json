@@ -1,0 +1,134 @@
+[
+  {
+    "Title": "3d Social",
+    "Details Section": "Il est temps de libérer tout le potentiel en 3D dans le développement web. Envie de faire un petit voyage avec nous à travers three.js ?"
+  },
+  {
+    "Title": "404 Tetris",
+    "Details Section": "Exit le JS, Framework ou tout autre langage et Re-bienvenue au langage PHP !\nPHP est un langage souple, facile à prendre en main, disposant de nombreux outils et d’une très large communauté. Il fut créé en 1994 par Rasmus Lerdorf. Il est multi plateforme : multi OS (Windows, Unix, Linux, etc.), multi serveur HTTP (Apache, IIS, Nginx, etc.). Il s’interface nativement avec la quasi-totalité des SGBD.\nCe défi consiste à développer le sujet national uniquement avec ce merveilleux langage qu’est PHP !\nBon courage !"
+  },
+  {
+    "Title": "A la chasse au logo!",
+    "Details Section": "Votre mission si vous l'acceptez est de développer un site web interactif (qui peut être celui d'un autre défi) où un logo Lyreco se cache et se déplace aléatoirement.\nLe logo peut prendre plusieurs formes : une image, un art ASCII, ou même un texte stylisé.\nSurprenez l’utilisateur avec un emplacement et une présentation différente à chaque fois qu’il navigue ou recharge une page.\nLorsqu'un utilisateur clique sur ce logo, une animation travaillée et captivante doit se déclencher.\nCe défi mêle créativité, compétences techniques et esprit d'équipe !\nBien évidement, ce défi doit s'inscrire dans l'applicaiton du sujet de la nuit de l'info 2024, donc votre chasse doit être intégré à la solution de la nuit 2024 !"
+  },
+  {
+    "Title": "Améliorer l’accessibilité d’Open WebUI",
+    "Details Section": "Open WebUI (https://github.com/open-webui/open-webui) est un projet open-source qui vise à développer une interface web dotée de nombreuses fonctionnalités pour interagir avec des grands modèles de langage auto-hébergés.\nCe defi consiste à ajouter de nouvelles fonctionnalités à ce projet afin de rendre son interface utilisateur plus inclusive et ainsi de rendre cette technologie accessible au plus grand nombre, notamment les utilisateurs empêchés."
+  },
+  {
+    "Title": "Améliorer les fonctionnalités d'Open WebUI",
+    "Details Section": "Open WebUI (https://github.com/open-webui/open-webui) est un projet open-source qui vise à développer une interface web dotée de nombreuses fonctionnalités pour interagir avec des grands modèles de langage auto-hébergés.\nCe defi consiste à enrichir cette interface avec de nouvelles fonctionnalités à ce projet afin d'augmenter les possibilités offertes."
+  },
+  {
+    "Title": "Cookie Cauchemar",
+    "Details Section": "Tout le monde a déjà rencontré un site ou une application logicielle à l'interface douteuse. Un bouton qui ne fonctionne pas, une scrollbar qui ne se met jamais exactement à 50%... Il est même possible que de sombres individus que vous appeliez autrefois vos \"amis\" vous aient transféré le lien du site inyerface. Les plus psychorigides en font encore des cauchemars la nuit !\nCette nuit, c'est le moment de vous venger. Comme dirait Dark Vador \"rejoignez le côté obscur, nous avons des cookies\". Nous vous proposons d'ajouter au défi de la nuit de l'info un cookie clicker (ou tout autre style de cliker) dont l'interface et l'expérience utilisateur doit être la plus cauchemardesque possible ! Stimulez votre créativité et soyez imaginatif. Plus l'UI/UX sera trollesque et amusante, plus vous marquerez de points ! Nous évaluerons la qualité graphique de l'interface, l'inventivité de votre dark UX, l'inspiration et l'amusement global qui ressort de votre projet. Nous arbitrons chaque sujet durant 5 minutes avec au moins 2 examinateurs afin de noter aussi objectivement que possible.\nA vos marques, prêts ? Cliquez !\nDark UX = Interface utilisateur qui a été volontairement conçue pour tromper ou manipuler un utilisateur. Ces choix peuvent aussi être décrits comme des éléments mis en place pour solliciter davantage l'utilisateur et faire en sorte que celui-ci reste plus longtemps sur un service à l'aide de biais cognitifs - Wikipédia.\nQuelques petites exemples de slider de l'enfer :\n\nMots clés : #Dark_UX, #Nightmare_UI, #User_inyerface"
+  },
+  {
+    "Title": "Développement GreenIT",
+    "Details Section": "La prise en compte de l'empreinte écologique dans le développement est un sujet essentiel pour limiter les impacts de l'informatique sur l'environnement. Cette approche est d'autant plus nécessaire que nous n'en sommes pas à des optimisations complexes, mais à l'application simple de quelques principes qui permettent d'éviter des gâchis importants de ressources. Par exemple, 90% des surconsommations de ressources sur les environnements managés viennent de trois problèmes simples : boucle sur les opérations d'entrée/sortie + concaténation de chaînes sans gestion adaptée de la mémoire + utilisation d'exceptions sur des cas non-exceptionnels."
+  },
+  {
+    "Title": "Enquête sur les Données : Devenez un Sherlock des Statistiques !",
+    "Details Section": "C’est la Nuit de l'Info, et vous, détectives de la data, êtes sur une enquête de grande envergure. Votre mission : déchiffrer des montagnes de données laissées par les utilisateurs de votre application. Les indices sont là, partout : chaque clic, chaque interaction, chaque retour d’expérience cache un secret. Mais ces informations brutes sont un vrai labyrinthe. C’est à vous de les explorer et d’en dévoiler tout le potentiel ! Votre défi ? Intégrer une fonctionnalité de calcul de statistiques dans votre projet. Que ce soit pour analyser des données utilisateurs, des interactions ou des résultats, votre défi sera de développer une solution capable de calculer et de renvoyer des statistiques pertinentes à partir des données collectées par votre application. Par exemple, vous pouvez calculer des statistiques telles que le taux d'utilisation de certaines fonctionnalités de l'application, le nombre d'interactions par utilisateur, ou encore l'analyse des données de retour d'expérience pour mieux comprendre les préférences des utilisateurs. Comme tout bon détective, vous aurez besoin d’outils efficaces. Vous devrez concevoir une API fluide et bien documentée. Et pour ceux qui veulent aller encore plus loin dans l'enquête, des bonus vous attendent :\nVotre solution devra être simple d’utilisation et pourra s’appuyer sur les outils et bibliothèques de votre choix pour répondre à ce défi ! À vous de jouer, détectives !"
+  },
+  {
+    "Title": "Game Tcha : le CAPTCHA ludique",
+    "Details Section": "Concevoir un mini-jeu qui s’inspire de l’univers du gaming pour remplacer les CAPTCHA traditionnels. Ce défi vous permet de mêler créativité et sécurité web, tout en plongeant les utilisateurs dans une expérience ludique et immersive. Plus qu’un simple test, faites de ce CAPTCHA un véritable jeu !"
+  },
+  {
+    "Title": "Green Points : Jouez pour la planète",
+    "Details Section": "Gamifier le site - que vous allez réaliser pour la nuit de l'info 2024 - en récompensant des comportements écoresponsables. L'idée est de réduire la consommation énergétique du site tout en engageant les utilisateurs. Cela passe par des comportements responsables qui sont mesurés et récompensés."
+  },
+  {
+    "Title": "IA en Action",
+    "Details Section": "Les IA ont révolutionné le développement en boostant la productivité, en simplifiant la recherche d’erreurs ou de nouvelles bibliothèques, en suggérant des optimisations de code, et bien plus encore. Votre mission, si vous l’acceptez, est de nous montrer comment vous utilisez l’IA pour relever les défis de la Nuit de l’Informatique, en particulier le défi principal.\nDans une courte vidéo, montrez concrètement comment elle vous aide à coder plus vite, mieux, ou de manière plus innovante. Soyez créatifs, pédagogiques, et n’hésitez pas à illustrer les étapes où l’IA fait vraiment la différence dans votre développement."
+  },
+  {
+    "Title": "L'Assistant Mystérieux",
+    "Details Section": "Thème : Création d'un module WordPress de chatbot à dimension IA, avec une collecte de données interactive Rejoignez la grande aventure de \"La Nuit de l'Info\" avec Richatt et faites preuve de créativité en construisant un module WordPress de chatbot support client !\nLe chatbot (intégré à l'application du sujet de la nuit 2024) devra :\nConseil bonus : Soyez créatifs ! Utilisez l'IA, et des techniques d'interaction engageantes pour créer un assistant support client vraiment unique. Le but est d'impressionner par l'originalité et l'utilité, mais également par la manière dont vous rendrez l'expérience amusante et surprenante.\nSoyez audacieux ! Nous valorisons l'innovation et le talent. Bonne chance, et que le meilleur chatbot gagne !"
+  },
+  {
+    "Title": "L'ergonomie : simplifier pour mieux vivre.",
+    "Details Section": "Description du partenaire:\nSopra Steria, l’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.\nThe world is how we shape it.\n\nDescription du défi:\nDonald Norman, figure éminente dans les domaines du design, de l'ergonomie et de l'expérience utilisateur, auteur de The Design of Everyday Things a dit un jour:\n\"Si une machine doit être notre servante, elle doit être conçue pour être facile à utiliser.\"\n"
+  },
+  {
+    "Title": "L'IA pourrait-elle prendre le contrôle du jeu ?",
+    "Details Section": "Crédit Agricole Technologie Services vous propose de développer un jeu mettant en œuvre une Intelligence Artificielle.\nLe jeu doit bien sûr être en lien avec le thème de la nuit de l’info qui sera dévoilé le jour de l’évènement.\nEt si vous introduisiez le Konami Code ?\nNous évaluerons les propositions en considérant en premier lieu notre niveau d’amusement !\nSaurez-vous nous faire croire que nous jouons avec ou contre un humain ?"
+  },
+  {
+    "Title": "L'île aux singes 2.0 : Guide interactif pour pirates en herbe",
+    "Details Section": "Vous inclurez dans votre solution une fonctionnalité d’aide à l’utilisateur (chatbot, FAQ, …) de votre solution qui reprend les thèmes, codes et vocabulaire du jeu Monkey Island. Le jury décidera du gagnant sur l'originalité de la fonctionnalité (humour, culture pop, design, ...)"
+  },
+  {
+    "Title": "L’accessibilité au cœur du développement : relevez le défi !",
+    "Details Section": "L'accessibilité numérique permet à tous, y compris les personnes en situation de handicap, d'accéder aux informations et services en ligne. C'est non seulement un droit fondamental, mais aussi une opportunité d'innovation et d'inclusion pour les entreprises. Penser à l'accessibilité dans le développement de solutions informatiques, c'est garantir une société plus équitable et connectée.​​\nASI s’engage pour un numérique responsable au service de l’humain. Nous vous proposons d’appliquer l’un de nos principes : développer une application accessible à tous ! Implémenter le sujet de la nuit de l'info 2024 avec un niveau maximum d'accessibilité :-)\n"
+  },
+  {
+    "Title": "La cyber c'est super!",
+    "Details Section": "La formation des utilisateurs en matière de cybersécurité est cruciale pour plusieurs raisons :\n\nA VOUS DE JOUER !\nL'objectif est de fournir une solution web innovante pour sensibiliser des utilisateurs. Une approche gamifiée pourrait être intéressante.\nTous les types de contenus sont encouragés (montage vidéo, chatbot, quizz,…)\nVous serez évalués sur les critères suivants :"
+  },
+  {
+    "Title": "La Menace Fantôme de l'Empreinte Carbone",
+    "Details Section": "Beaucoup d'énergie le numérique consomme, souvent issue de matières fossiles, ce qui l'équilibre des pouvoirs dans la galaxie perturbe. Aligner vos développements avec des pratiques numériques responsables, un défi c'est.\nDans ton projet, simple et innovante ta solution doit être. Intégrer des principes de green coding, tu devras.\nDes outils comme ecoindex.fr, utiliser tu peux. Le livre blanc de CGI, consulter tu devrais. Des exemples de green coding, trouver tu pourras sur Suso Academy. Plus de ressources, chercher tu peux sur Computer.org et Daily.dev."
+  },
+  {
+    "Title": "Mets tes binocles!",
+    "Details Section": "Qui fait quoi et quoi fait qui ? Etes-vous sûr que votre applicatif est toujours debout ? Qu'il marche? Qu'il court ? Trop chargé ? Pas assez chargé ? Comment le saurez-vous ? Comment le prouverez-vous ? Dotez-vous d'une Super Vision 🤩 !\n\nDéfi IA friendly ne vous en privez pas"
+  },
+  {
+    "Title": "Mise en place de la qualité",
+    "Details Section": "Depuis plusieurs années, des Services Qualité Test se développent chez les éditeurs de logiciels et mettent en place une panoplie de tests pour assurer une satisfaction utilisateur. Pour cela, nous nous identifions comme le 1er utilisateur et mettons en place une Assurance Qualité pour commercialiser un logiciel qui fonctionne, bien sûr, mais pas seulement : il doit aussi répondre aux attentes des clients, être facile d'utilisation, avoir une ergonomie adaptée qui permette de l’utiliser avec le moins de contraintes possible."
+  },
+  {
+    "Title": "MOVAI CODE 2024",
+    "Details Section": "\n\nBien coder, optimiser, respecter des conventions... Y'EN A MARRE !\nChez Coddity nous donnons l'occasion de vous lâcher, de montrer au monde à quel point vous pouvez être nul.\nL'objectif est d'écrire une fonction ou un composant de page de la pire des manières : compliqué, lent, overkill, qualité de code baffouée, movai choix d'algo, etc.\nAttention toutefois : IL FAUT QUE ÇA MARCHE !\nVous verrez, ce n'est pas si facile. Une amie disait : \"c'est comme essayer de chanter faux, c'est plus facile à dire qu'à faire\".\nVous pouvez l'appliquer à du frontend, backend, fichiers de conf, en réalité on peut faire moins bien un peu partout.\nPour plus de détails / quelques exemples, vous pouvez consulter https://movaicode.fr"
+  },
+  {
+    "Title": "My credit page so amazing »",
+    "Details Section": "Objectif : Le but de ce défi est de créer une page crédit interactive et visuellement attrayante qui met en valeur les personnes ayant contribué au projet dans le cadre de défis (hackathons, projets collaboratifs, etc.). Cette page devra s'intégrer dans un projet global, avec un environnement propice à la fusion de thèmes.\nDescription détaillée du défi :\n\nLe projet final doit être intégré dans le projet global et être déployé sur une plateforme accessible"
+  },
+  {
+    "Title": "On va jouer à un jeu 🪚",
+    "Details Section": "Mettre en place un système de gamification innovant et insolite.\nCela peut se baser sur de l'existant, le modifier ou créer de toute pièce ce qui fera que votre site internet ou application soit de nouveau visité par les mêmes utilisateurs (augmentation du taux de rebond).\nVoici une définition simple de la gamification : La gamification (ou ludification en français) est une technique qui consiste à utiliser des éléments du jeu dans des domaines qui ne sont pas liés au jeu, comme le travail, l'éducation ou la santé. Le but est de rendre une activité plus motivante et amusante.\nPar exemple :"
+  },
+  {
+    "Title": "On veut du gros pixel ! ✨🎮👾🕹️",
+    "Details Section": "Dans le cadre du défi national de la nuit de l'info, vous êtes invités à plonger dans l'univers du retro-gaming. Votre mission, si vous l'acceptez, est :\nd'ajouter un élément rétro gaming à l'une des pages de votre production ; OU de modifier le style visuel d'une page entière pour lui donner un style rétro gaming.\nLa personnalisation doit respecter le thème global du sujet du défi national et s'harmoniser avec son contenu."
+  },
+  {
+    "Title": "Osez défier le GRINCH !!!",
+    "Details Section": "Confectionnez un objet mystérieux qui transforme l’attente en un rituel quotidien, révélant peu à peu des instants de joie et de surprise, tout en gardant intacte la magie du moment à venir."
+  },
+  {
+    "Title": "Pixels sous pression",
+    "Details Section": "Dans un monde numérique où les images prennent de plus en plus de place, ce défi invite les participants à développer des algorithmes innovants de compression et des stratégies d'optimisation pour accélérer le chargement d’un grand nombre d’images. Les solutions doivent s'intégrer dans un contexte web performant et accessible pour garantir une expérience utilisateur optimale."
+  },
+  {
+    "Title": "Respect de la vie privée",
+    "Details Section": "Les systèmes actuels sont de plus en plus ouverts et exposent volontairement ou non des données à caractère personnel des utilisateurs. Quand on conçoit un tel système ouvert, on doit au préalable définir une étude d'impacts sur la vie privée. Cette étude sert alors de support pour mettre en place les contre-mesures nécessaires à la diminution des risques principaux.\nL'étude d'impacts sur la vie privée (EIVP) (ou PIA -- Privacy Impact Assessment) permet de cerner et d'évaluer les différents risques. Différentes méthodes ont été définies pour effectuer ce type d'étude. En particulier, la CNIL propose un cadre clair pour effectuer cette étude.\n\nLe but de ce défi est de fournir une analyser des risques dans l'application développée la notion du respect de la vie privée. Il faudra réaliser une étude d'impact sur la vie privée sur votre solution. Vous pouvez utiliser comme support la méthodologie décrite par la CNIL (https://www.cnil.fr/fr/outil-pia-telechargez-et-installez-le-logiciel-de-la-cnil) plus précisément se baser sur PIA-2, l'outillage, en particulier le chapitre 3). Le dossier ne doit pas dépasser quelques pages.\n\n"
+  },
+  {
+    "Title": "Search Quest",
+    "Details Section": "Meilisearch est un moteur de recherche open-source, qui dispose d’une solution Cloud.\nNous sommes donc des amoureux de l’open-source et nous aurons à coeur de partager votre projet avec le reste de la communauté si celui-ci aboutit. On pourrait notamment vous aider à faire une mise en production long terme et parler du projet sur notre blog.\nLe but du challenge : réaliser le site web le plus original intégrant les fonctionnalités de Meilisearch!\nPour vous inspirer et voir ce qui existe déjà, vous pouvez aller voir toutes nos démos.\n"
+  },
+  {
+    "Title": "SFEIR - Météo originale & accessible",
+    "Details Section": "Votre mission, si vous l'acceptez, est de créer une visualisation originale et interactive des données météorologiques :\n"
+  },
+  {
+    "Title": "Shake That Site",
+    "Details Section": "Certains sites web sont ennuyeux, alors rendons-les drôles et vivants !\n"
+  },
+  {
+    "Title": "Ubisoft Bordeaux : Mashup Gaming",
+    "Details Section": "Ubisoft Bordeaux, après le succès d'Assassin's Creed Mirage, l'équipe bordelaise planche sur un nouveau jeu et vous propose de participer à sa réflexion. Nous avons décidé d'oser l'inédit et de mélanger les univers qui ont fait la renommée d'Ubisoft.\nNous vous invitons à imaginer un concept de jeu en fusionnant des personnages, des décors ou des mécaniques issus de plusieurs jeux Ubisoft.\nL’objectif ? Proposer une expérience unique et surprenante qui séduira les joueurs du monde entier en rapport avec le sujet de la Nuit de l'Info.\nSi votre idée nous bluffe, nous nous engageons à la présenter aux équipes créatives d’Ubisoft Bordeaux. Qui sait, votre concept pourrait inspirer notre prochain jeu à succès !\nEnvoyez votre création avant le vendredi 6 décembre 2024 à 8h04 à l'adresse suivante : ubisoftbdxcampus@ubisoft.com . Merci de mettre en copie les membres de votre équipe !\nAlors, êtes-vous prêts à révolutionner le monde du jeu vidéo ? À vos idées !\nBonne nuit !"
+  },
+  {
+    "Title": "WORST CODE EVER",
+    "Details Section": "Il est important de mettre de la qualité et du coeur dans les développements. Les tendances de TDD, DDD, Craftman ship sont en vogue et la beauté du code est à son paroxysme. Mais ne faut-il pas avoir touché le fond pour mieux remonter ? Cette année CAPCOD vous propose non pas de simplement produire un code de qualité médiocre, mais que celui-ci soit un exemple, une muse, pour le PDD (Pain Driven Développement INSERER JEU DE MOT RIGOLO). Le rendu se fera sous la forme du repo git de votre choix dans votre langage préféré et vous motiverez vos anti-choix de qualité par une petite note accompagnante.\n\nPS : nous aimons l’humour."
+  },
+  {
+    "Title": "Ymoji - Shigetaka Kurita n’a qu’à bien se tenir !",
+    "Details Section": "Dans le cadre de cette Nuit de l’Info, le défi Ymoji, vous invite à intégrer de manière créative et innovante les émojis dans votre application Web.\nVoici quelques exemples :\nL’objectif de ce défi est de repousser les limites de l’utilisation des émojis dans une application Web 2.0 tout en restant cohérent avec le thème principal de la nuit. Soyez créatifs, amusants et faites preuve d’innovation !"
+  }
+]
